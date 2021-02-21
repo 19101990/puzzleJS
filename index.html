@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>2x2 Puzzle</title>
+</head>
+<body>
+    <div class="puzzle" id="puzzle">
+        <div id="container" class="container">
+            <div class="row1">
+                <div id="a1" class="piece a"></div>
+                <div id="a2" class="piece b"></div>
+            </div>
+            <div class="row2">
+                <div id="b1" class="piece c"></div>
+                <div id="b2" class="piece d"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="shuffle-btn" class="btn shuffle-btn">Shuffle</button>
+            <button id="change-btn" class="btn change-btn" onClick="history.go(0);">Change</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
